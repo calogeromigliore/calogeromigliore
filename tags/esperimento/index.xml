@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Calogero Migliore</title>
-    <link>https://calogeromigliore.it/blog/</link>
-    <description>Recent content in Blog on Calogero Migliore</description>
+    <title>esperimento on Calogero Migliore</title>
+    <link>https://calogeromigliore.it/tags/esperimento/</link>
+    <description>Recent content in esperimento on Calogero Migliore</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Aug 2021 13:00:00 +0600</lastBuildDate><atom:link href="https://calogeromigliore.it/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Aug 2021 13:00:00 +0600</lastBuildDate><atom:link href="https://calogeromigliore.it/tags/esperimento/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diario di bordo di un developer</title>
       <link>https://calogeromigliore.it/blog/post-1/</link>
