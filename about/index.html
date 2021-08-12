@@ -32,7 +32,7 @@
 
 
 
-<link rel="stylesheet" href="https://calogeromigliore.it/css/vendor.min.66681aab043bd2e37f6040dcbeaa34c21fc02bb9b35955dc09575400522dd473c7b31e75197c238f2b51ef086699788008b5458ca4b239b63fca86d9aa177fc0.css" integrity="sha512-ZmgaqwQ70uN/YEDcvqo0wh/AK7mzWVXcCVdUAFIt1HPHsx51GXwjjytR7whmmXiACLVFjKSyObY/yobZqhd/wA==" media="screen">
+<link rel="stylesheet" href="https://calogeromigliore.it/css/vendor.min.e1a6ec13eec0c7040eede216e43260acfc93e9da0112bdcdd0ec805a14c0853054315d76def86982c4c97c132e2a1331c7814d54ebb617ecd7aa6cb64778b5b3.css" integrity="sha512-4absE&#43;7AxwQO7eIW5DJgrPyT6doBEr3N0OyAWhTAhTBUMV123vhpgsTJfBMuKhMxx4FNVOu2F&#43;zXqmy2R3i1sw==" media="screen">
 
 </head>
 
@@ -166,6 +166,12 @@
                                 </a>
                             </li>
                             
+                            <li class="list-inline-item">
+                                <a href="https://www.youtube.com/c/CalogeroMigliore" target="_blank">
+                                    <i class="lab la-youtube"></i>
+                                </a>
+                            </li>
+                            
                         </ul>
                     
                 
@@ -225,6 +231,10 @@ Sono fondatore di <a href="https://sailcode.it">Sailcode</a>, dove sviluppiamo s
             <i class="lab lab la-github"></i>
           </a></li>
           
+          <li class="list-inline-item text-center"><a href="https://www.youtube.com/c/CalogeroMigliore" aria-label="social-icon">
+            <i class="lab lab la-youtube"></i>
+          </a></li>
+          
         </ul>
         
       </div>
@@ -264,6 +274,46 @@ Sono fondatore di <a href="https://sailcode.it">Sailcode</a>, dove sviluppiamo s
 <script data-turbolinks-suppress-warning src="/js/vendor.min.104c16bb588dd60f4bc0cbb9828dcf214eb0a6775f69f74f025b75dc5aac73eb47da26aef00c8f4e3d7a85099a8054c195d03d63aa88d1b4213a47274755994e.js" integrity="sha512-EEwWu1iN1g9LwMu5go3PIU6wpndfafdPAlt13Fqsc&#43;tH2iau8AyPTj16hQmagFTBldA9Y6qI0bQhOkcnR1WZTg=="></script>
 
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+  This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary rounded ml-2">I Accept</span>
+</div>
+<script>
+  (function ($) {
+    const cookieBox = document.getElementById('js-cookie-box');
+    const cookieButton = document.getElementById('js-cookie-button');
+    if (!Cookies.get('cookie-box')) {
+      cookieBox.classList.remove('cookie-box-hide');
+      cookieButton.onclick = function () {
+        Cookies.set('cookie-box', true, {
+          expires:  2 
+        });
+        cookieBox.classList.add('cookie-box-hide');
+      };
+    }
+  })(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: #152035;
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
 
 </body>
 
